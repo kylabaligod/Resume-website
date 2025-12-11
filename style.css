@@ -1,0 +1,147 @@
+body {
+    background: rgba(250, 200,100, .2);
+    font-size:x-large;
+}
+
+header {
+    color:lab(35.37% 30.16 31.34);
+    background-color: #e8bad0;
+    padding: 40px 20px;
+    margin-bottom:0px; 
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+h1 {
+  color:#a855f7;
+  font-size: 48px;
+}
+
+#home {
+  text-align: center;
+  padding: 100px 0;
+  background: #614c6d;
+}
+
+
+#about {
+  padding: 50px;
+  background: #e8bad0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-container img {
+   display: flex;                
+   justify-content: center;       /* center image horizontally */
+   border: 2px solid #333;       
+   padding: 20px;                 
+   max-width: 200px;              /* maximum width of the box */
+   width: 90%;                     /* shrink on smaller screens */
+   background-color: #e8d5e7;    
+   border-radius: 50%;            
+   margin: 20px auto;         
+}
+
+
+.about-text {
+  max-width: 600px;
+}
+
+.social-icons {
+  margin-top: 20px; 
+  display: flex;
+  gap: 20px;              
+  justify-content: center; 
+}
+
+.social-icons a {
+  font-size: 30px;        
+  color: white;           
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #a855f7;         
+}
+
+.skills-container {
+  align-items: center;
+  gap: 20px;
+  background: #f0f0f0;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+
+
+
+main > section > h2 {
+    color:#a26752;
+}
+
+
+#picture {
+   display: flex;                
+   justify-content: center;       /* center image horizontally */
+   border: 2px solid #333;       
+   padding: 20px;                 
+   max-width: 200px;              /* maximum width of the box */
+   width: 90%;                     /* shrink on smaller screens */
+   background-color: #e8d5e7;    
+   border-radius: 50%;            
+   margin: 20px auto;             /* centers the box horizontally */
+}
+
+#picture img {
+   width: 200px;                   /* image size */
+   height: 200px;                  
+   border-radius: 50%;             /* circular image */
+   object-fit: cover;              /* keeps image ratio correct */
+}
+
+#contact {
+  border: 2px solid #333; /* border makes it look like a box */
+  padding: 20px;           /* space inside the box */
+  width: 500px;            /* box width */
+  background-color: #f0f0f0; /* optional background */
+  border-radius: 8px;      /* rounded corners */
+  margin: 20px;  
+}
+
+body {
+    width:auto;
+    margin:auto;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+#profile-summary {
+  border: 2px solid #333; /* border makes it look like a box */
+  padding: 20px;           /* space inside the box */
+  width: 500px;            /* box width */
+  background-color: #f0f0f0; /* optional background */
+  border-radius: 8px;      /* rounded corners */
+  margin: 20px;
+}
